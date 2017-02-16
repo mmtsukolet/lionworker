@@ -1,0 +1,285 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "b31bfd3d5c23672bf85e8e044002cd22",
+    "content-hash": "3879c0fd45ca28c3bad8398772690a42",
+    "packages": [
+        {
+            "name": "iron-io/iron_core",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iron-io/iron_core_php.git",
+                "reference": "07f400f36eb4a29e8759abe1c81922a019f801dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iron-io/iron_core_php/zipball/07f400f36eb4a29e8759abe1c81922a019f801dc",
+                "reference": "07f400f36eb4a29e8759abe1c81922a019f801dc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "IronCore\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander S",
+                    "email": "alexander@iron.io",
+                    "homepage": "http://iron.io",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Iron.io",
+                    "email": "support@iron.io",
+                    "homepage": "http://iron.io",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Tino Ehrich",
+                    "email": "tino@bigpun.me"
+                }
+            ],
+            "description": "Collection of common functions for all iron.io client libraries",
+            "homepage": "http://github.com/iron-io/iron_core_php",
+            "keywords": [
+                "iron",
+                "iron_core"
+            ],
+            "time": "2016-02-02 11:49:32"
+        },
+        {
+            "name": "iron-io/iron_mq",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iron-io/iron_mq_php.git",
+                "reference": "9906a59885c8b715ac77346b1538a8a1c60300e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iron-io/iron_mq_php/zipball/9906a59885c8b715ac77346b1538a8a1c60300e1",
+                "reference": "9906a59885c8b715ac77346b1538a8a1c60300e1",
+                "shasum": ""
+            },
+            "require": {
+                "iron-io/iron_core": "1.*",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "IronMQ\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander S",
+                    "email": "alexander@iron.io",
+                    "homepage": "http://iron.io",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Tino Ehrich",
+                    "email": "tino@bigpun.me"
+                }
+            ],
+            "description": "Client binding for IronMQ (hosted message queue)",
+            "homepage": "http://github.com/iron-io/iron_mq_php",
+            "keywords": [
+                "MQ",
+                "iron",
+                "iron_mq"
+            ],
+            "time": "2015-02-12 20:05:42"
+        },
+        {
+            "name": "iron-io/iron_worker",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iron-io/iron_worker_php.git",
+                "reference": "87ce7761ed2a91cd84a8f47c0c5d225572ce7624"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iron-io/iron_worker_php/zipball/87ce7761ed2a91cd84a8f47c0c5d225572ce7624",
+                "reference": "87ce7761ed2a91cd84a8f47c0c5d225572ce7624",
+                "shasum": ""
+            },
+            "require": {
+                "iron-io/iron_core": "1.*",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "IronWorker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander S",
+                    "email": "alexander@iron.io",
+                    "homepage": "http://iron.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Client library for IronWorker (multi-language worker platform that runs tasks in the background, in parallel, and at scale.)",
+            "homepage": "http://github.com/iron-io/iron_worker_php",
+            "keywords": [
+                "background",
+                "delayed_job",
+                "iron",
+                "iron_worker",
+                "job",
+                "task",
+                "worker"
+            ],
+            "time": "2015-09-25 18:04:52"
+        },
+        {
+            "name": "mongodb/mongodb",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mongodb/mongo-php-library.git",
+                "reference": "318d4b95438a2ea68a550c2878678097f63fb9fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mongodb/mongo-php-library/zipball/318d4b95438a2ea68a550c2878678097f63fb9fe",
+                "reference": "318d4b95438a2ea68a550c2878678097f63fb9fe",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mongodb": "^1.2.0",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MongoDB\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Mikola",
+                    "email": "jmikola@gmail.com"
+                },
+                {
+                    "name": "Hannes Magnusson",
+                    "email": "bjori@mongodb.com"
+                },
+                {
+                    "name": "Derick Rethans",
+                    "email": "github@derickrethans.nl"
+                }
+            ],
+            "description": "MongoDB driver library",
+            "homepage": "https://jira.mongodb.org/browse/PHPLIB",
+            "keywords": [
+                "database",
+                "driver",
+                "mongodb",
+                "persistence"
+            ],
+            "time": "2017-01-17 19:59:32"
+        },
+        {
+            "name": "wp-cli/php-cli-tools",
+            "version": "v0.10.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-cli/php-cli-tools.git",
+                "reference": "037a010441a5c220cd1df26cdc9b20ad73408356"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/037a010441a5c220cd1df26cdc9b20ad73408356",
+                "reference": "037a010441a5c220cd1df26cdc9b20ad73408356",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "cli": "lib/"
+                },
+                "files": [
+                    "lib/cli/cli.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Logsdon",
+                    "email": "jlogsdon@php.net",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Daniel Bachhuber",
+                    "email": "daniel@handbuilt.co",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Console utilities for PHP",
+            "homepage": "http://github.com/wp-cli/php-cli-tools",
+            "keywords": [
+                "cli",
+                "console"
+            ],
+            "time": "2015-08-10 12:46:19"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-mongodb": "*"
+    },
+    "platform-dev": []
+}
