@@ -9,7 +9,8 @@ require __DIR__ . '/vendor/autoload.php';
 define("DB_HOST", "mongodb://	heroku:vjiNeS_vRxpR6I9L49cvRyVz7TyWm8x9lJHR7SNwrgajnZcurSUlQI3cdKtZn5FmG89Qy1aQQGAZOyvVF3azqw@candidate.4.mongolayer.com:11191,candidate.19.mongolayer.com:11495/app45507208");
 
 $mongo = new MongoDB\Client(DB_HOST);
-$database = $mongo->app45285157;
+// $database = $mongo->app45285157; //LIVE
+$database = $mongo->app45285157; //STAGING
 
 /** DB */
 $analytics = $database->analytics;
